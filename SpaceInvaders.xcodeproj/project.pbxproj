@@ -14,9 +14,12 @@
 		DD2BC9201F181AA90067D1A8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BC91F1F181AA90067D1A8 /* GameViewController.swift */; };
 		DD2BC9231F181AA90067D1A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC9211F181AA90067D1A8 /* Main.storyboard */; };
 		DD2BC9251F181AA90067D1A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC9241F181AA90067D1A8 /* Assets.xcassets */; };
-		DD2BC9281F181AA90067D1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC9261F181AA90067D1A8 /* LaunchScreen.storyboard */; };
 		DD2BC9331F181AA90067D1A8 /* SpaceInvadersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BC9321F181AA90067D1A8 /* SpaceInvadersTests.swift */; };
 		DD2BC93E1F181AA90067D1A8 /* SpaceInvadersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BC93D1F181AA90067D1A8 /* SpaceInvadersUITests.swift */; };
+		DD2BC94F1F181B7C0067D1A8 /* InvaderBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC94B1F181B7C0067D1A8 /* InvaderBullet.wav */; };
+		DD2BC9501F181B7C0067D1A8 /* InvaderHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC94C1F181B7C0067D1A8 /* InvaderHit.wav */; };
+		DD2BC9511F181B7C0067D1A8 /* ShipBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC94D1F181B7C0067D1A8 /* ShipBullet.wav */; };
+		DD2BC9521F181B7C0067D1A8 /* ShipHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC94E1F181B7C0067D1A8 /* ShipHit.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,6 @@
 		DD2BC91F1F181AA90067D1A8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		DD2BC9221F181AA90067D1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD2BC9241F181AA90067D1A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD2BC9271F181AA90067D1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2BC9291F181AA90067D1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD2BC92E1F181AA90067D1A8 /* SpaceInvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceInvadersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2BC9321F181AA90067D1A8 /* SpaceInvadersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvadersTests.swift; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		DD2BC9391F181AA90067D1A8 /* SpaceInvadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceInvadersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2BC93D1F181AA90067D1A8 /* SpaceInvadersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvadersUITests.swift; sourceTree = "<group>"; };
 		DD2BC93F1F181AA90067D1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2BC94B1F181B7C0067D1A8 /* InvaderBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = InvaderBullet.wav; sourceTree = "<group>"; };
+		DD2BC94C1F181B7C0067D1A8 /* InvaderHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = InvaderHit.wav; sourceTree = "<group>"; };
+		DD2BC94D1F181B7C0067D1A8 /* ShipBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShipBullet.wav; sourceTree = "<group>"; };
+		DD2BC94E1F181B7C0067D1A8 /* ShipHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShipHit.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +116,7 @@
 				DD2BC91F1F181AA90067D1A8 /* GameViewController.swift */,
 				DD2BC9211F181AA90067D1A8 /* Main.storyboard */,
 				DD2BC9241F181AA90067D1A8 /* Assets.xcassets */,
-				DD2BC9261F181AA90067D1A8 /* LaunchScreen.storyboard */,
+				DD2BC9531F181B880067D1A8 /* sonidos */,
 				DD2BC9291F181AA90067D1A8 /* Info.plist */,
 			);
 			path = SpaceInvaders;
@@ -132,6 +138,17 @@
 				DD2BC93F1F181AA90067D1A8 /* Info.plist */,
 			);
 			path = SpaceInvadersUITests;
+			sourceTree = "<group>";
+		};
+		DD2BC9531F181B880067D1A8 /* sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BC94B1F181B7C0067D1A8 /* InvaderBullet.wav */,
+				DD2BC94C1F181B7C0067D1A8 /* InvaderHit.wav */,
+				DD2BC94D1F181B7C0067D1A8 /* ShipBullet.wav */,
+				DD2BC94E1F181B7C0067D1A8 /* ShipHit.wav */,
+			);
+			name = sonidos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2BC9231F181AA90067D1A8 /* Main.storyboard in Resources */,
+				DD2BC9521F181B7C0067D1A8 /* ShipHit.wav in Resources */,
 				DD2BC91A1F181AA90067D1A8 /* GameScene.sks in Resources */,
+				DD2BC9501F181B7C0067D1A8 /* InvaderHit.wav in Resources */,
 				DD2BC9251F181AA90067D1A8 /* Assets.xcassets in Resources */,
-				DD2BC9281F181AA90067D1A8 /* LaunchScreen.storyboard in Resources */,
+				DD2BC94F1F181B7C0067D1A8 /* InvaderBullet.wav in Resources */,
+				DD2BC9511F181B7C0067D1A8 /* ShipBullet.wav in Resources */,
 				DD2BC91C1F181AA90067D1A8 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +334,6 @@
 				DD2BC9221F181AA90067D1A8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD2BC9261F181AA90067D1A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD2BC9271F181AA90067D1A8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamm.SpaceInvaders;
@@ -438,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamm.SpaceInvaders;

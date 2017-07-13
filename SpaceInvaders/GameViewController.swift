@@ -29,7 +29,25 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            
+            //gestion de la pausa del videojuego
+            NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationWillResignActive), name: .UIApplicationWillResignActive, object: nil)
+            
+            //gestion de la vuelta de pausa
+            NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationDidBecomeActive), name: .UIApplicationDidBecomeActive, object: nil)
         }
+    }
+    
+    func handleNotificationWillResignActive(notification: NSNotification) {
+        let view = self.view as! SKView
+        view.isPaused = true
+        print("paused game")
+    }
+    
+    func handleNotificationDidBecomeActive(notification: NSNotification) {
+        let view = self.view as! SKView
+        view.isPaused = false
+        print("become active game")
     }
 
     override var shouldAutorotate: Bool {
