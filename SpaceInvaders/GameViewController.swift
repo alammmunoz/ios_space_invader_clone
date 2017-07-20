@@ -20,6 +20,7 @@ class GameViewController: UIViewController {
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
+                scene.size = view.frame.size
                 
                 // Present the scene
                 view.presentScene(scene)
@@ -29,6 +30,7 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+        
             
             //gestion de la pausa del videojuego
             NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationWillResignActive), name: .UIApplicationWillResignActive, object: nil)

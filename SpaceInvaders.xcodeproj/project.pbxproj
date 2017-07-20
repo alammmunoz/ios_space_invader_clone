@@ -219,6 +219,7 @@
 				TargetAttributes = {
 					DD2BC9131F181AA80067D1A8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P23Q585AK2;
 						ProvisioningStyle = Automatic;
 					};
 					DD2BC92D1F181AA90067D1A8 = {
@@ -439,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = P23Q585AK2;
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamm.SpaceInvaders;
@@ -452,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = P23Q585AK2;
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamm.SpaceInvaders;
@@ -533,6 +536,7 @@
 				DD2BC9441F181AA90067D1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD2BC9451F181AA90067D1A8 /* Build configuration list for PBXNativeTarget "SpaceInvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +545,7 @@
 				DD2BC9471F181AA90067D1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD2BC9481F181AA90067D1A8 /* Build configuration list for PBXNativeTarget "SpaceInvadersUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +554,7 @@
 				DD2BC94A1F181AA90067D1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
