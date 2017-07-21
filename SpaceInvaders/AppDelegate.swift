@@ -12,10 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Chartboost.start(withAppId: "597258af43150f51af062681", appSignature: "e43ee330a07bd8125b4eff1f4b4fe5775e455bc7", delegate: nil)
+        
+        self.showVideo()
         return true
     }
 
@@ -39,6 +42,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func showInterstitial(){
+        Chartboost.showInterstitial(CBLocationHomeScreen)
+    }
+    
+    func showVideo() {
+        Chartboost.showRewardedVideo(CBLocationHomeScreen)
     }
 
 

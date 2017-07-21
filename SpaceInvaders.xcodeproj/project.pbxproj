@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD08E7D61F22687700659720 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08E7D51F22687700659720 /* GameOverScene.swift */; };
+		DD08E7D81F226F6E00659720 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08E7D71F226F6E00659720 /* StartScene.swift */; };
+		DD08E7DA1F22881D00659720 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08E7D91F22881D00659720 /* Chartboost.framework */; };
+		DD08E7DD1F22884C00659720 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08E7DC1F22884C00659720 /* StoreKit.framework */; };
+		DD08E7DF1F22885400659720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08E7DE1F22885400659720 /* Foundation.framework */; };
+		DD08E7E11F22885E00659720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08E7E01F22885E00659720 /* CoreGraphics.framework */; };
+		DD08E7E31F22886300659720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08E7E21F22886300659720 /* UIKit.framework */; };
 		DD2BC9181F181AA90067D1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BC9171F181AA90067D1A8 /* AppDelegate.swift */; };
 		DD2BC91A1F181AA90067D1A8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC9191F181AA90067D1A8 /* GameScene.sks */; };
 		DD2BC91C1F181AA90067D1A8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DD2BC91B1F181AA90067D1A8 /* Actions.sks */; };
@@ -40,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD08E7D51F22687700659720 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+		DD08E7D71F226F6E00659720 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		DD08E7D91F22881D00659720 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = ../Chartboost.framework; sourceTree = "<group>"; };
+		DD08E7DC1F22884C00659720 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DD08E7DE1F22885400659720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD08E7E01F22885E00659720 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD08E7E21F22886300659720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD08E7E41F22893700659720 /* SpaceInvaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceInvaders.h; sourceTree = SOURCE_ROOT; };
 		DD2BC9141F181AA90067D1A8 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2BC9171F181AA90067D1A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD2BC9191F181AA90067D1A8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,6 +81,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD08E7E31F22886300659720 /* UIKit.framework in Frameworks */,
+				DD08E7E11F22885E00659720 /* CoreGraphics.framework in Frameworks */,
+				DD08E7DF1F22885400659720 /* Foundation.framework in Frameworks */,
+				DD08E7DD1F22884C00659720 /* StoreKit.framework in Frameworks */,
+				DD08E7DA1F22881D00659720 /* Chartboost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD08E7DB1F22884B00659720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD08E7E21F22886300659720 /* UIKit.framework */,
+				DD08E7E01F22885E00659720 /* CoreGraphics.framework */,
+				DD08E7DE1F22885400659720 /* Foundation.framework */,
+				DD08E7DC1F22884C00659720 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD2BC90B1F181AA80067D1A8 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +124,7 @@
 				DD2BC9311F181AA90067D1A8 /* SpaceInvadersTests */,
 				DD2BC93C1F181AA90067D1A8 /* SpaceInvadersUITests */,
 				DD2BC9151F181AA90067D1A8 /* Products */,
+				DD08E7DB1F22884B00659720 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,15 +141,19 @@
 		DD2BC9161F181AA90067D1A8 /* SpaceInvaders */ = {
 			isa = PBXGroup;
 			children = (
+				DD08E7E41F22893700659720 /* SpaceInvaders.h */,
 				DD2BC9171F181AA90067D1A8 /* AppDelegate.swift */,
 				DD2BC9191F181AA90067D1A8 /* GameScene.sks */,
 				DD2BC91B1F181AA90067D1A8 /* Actions.sks */,
 				DD2BC91D1F181AA90067D1A8 /* GameScene.swift */,
+				DD08E7D71F226F6E00659720 /* StartScene.swift */,
 				DD2BC91F1F181AA90067D1A8 /* GameViewController.swift */,
+				DD08E7D51F22687700659720 /* GameOverScene.swift */,
 				DD2BC9211F181AA90067D1A8 /* Main.storyboard */,
 				DD2BC9241F181AA90067D1A8 /* Assets.xcassets */,
 				DD2BC9531F181B880067D1A8 /* sonidos */,
 				DD2BC9291F181AA90067D1A8 /* Info.plist */,
+				DD08E7D91F22881D00659720 /* Chartboost.framework */,
 			);
 			path = SpaceInvaders;
 			sourceTree = "<group>";
@@ -293,6 +329,8 @@
 			files = (
 				DD2BC91E1F181AA90067D1A8 /* GameScene.swift in Sources */,
 				DD2BC9201F181AA90067D1A8 /* GameViewController.swift in Sources */,
+				DD08E7D61F22687700659720 /* GameOverScene.swift in Sources */,
+				DD08E7D81F226F6E00659720 /* StartScene.swift in Sources */,
 				DD2BC9181F181AA90067D1A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +424,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/alanconnectis/Documents/SpaceInvaders/SpaceInvaders.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,6 +468,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/alanconnectis/Documents/SpaceInvaders/SpaceInvaders.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -441,6 +481,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = P23Q585AK2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamm.SpaceInvaders;
@@ -455,6 +499,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = P23Q585AK2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamm.SpaceInvaders;
